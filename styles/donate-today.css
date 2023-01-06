@@ -93,3 +93,37 @@ li:hover {
     padding: 10px 320px;
     margin-bottom: 30px;
 }
+
+/* donate plan section */
+.donate-plan {
+    text-align: center;
+}
+
+.plan-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.plan-item1 {
+    background-color: rgb(209, 255, 240);
+}
+.plan-item2 {
+    background-color:#ffe7e7;
+}
+.plan-item3 {
+    background-color:rgb(241, 241, 175);
+}
+.plan-item1,.plan-item2, .plan-item3 {
+    padding: 10px ;
+    height: 250px;
+    width: 350px;
+}
+
+.info-header {
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.info-description {
+    font-size: 18px;
+}
