@@ -5,7 +5,7 @@
 
 /* header section styles */
 .header {
-    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.8)), url(../images/donation0.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url(../images/donation0.jpg);
     height: 627px;
     background-size: cover;
     color: white;
@@ -42,4 +42,54 @@
     font-size: 19px;
     font-weight: 600;
     border-radius: 5px;
+}
+
+/* Donate Today Section */
+.donate-today-container {
+    text-align: center;
+}
+
+.section-header {
+    margin-top: 130px;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.section-description {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0px 300px;
+    margin-bottom: 30px;
+}
+
+.donate-ammount {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.item {
+    height: 90px;
+    width: 150px;
+    font-size: 25px;
+    font-weight: 800;
+    background-color: rgba(233, 232, 232, 0.3);
+    list-style: none;
+    padding-top: 50px;
+    border-radius: 4px;
+}
+
+li:hover {
+    background-color: #fdb9b9;
+    color: #fc0345;
+    border: 1px solid;
+}
+
+.input-amount input {
+    margin-top: 50px;
+    border: 0;
+    border-bottom: 1px solid gray;
+    padding: 10px 320px;
+    margin-bottom: 30px;
 }
