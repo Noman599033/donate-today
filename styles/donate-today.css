@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+/* header section styles */
+.header {
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.8)), url(../images/donation0.jpg);
+    height: 627px;
+    background-size: cover;
+    color: white;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    text-align: center;
+}
+
+.header-content {
+    padding-top: 150px;
+}
+
+.header-title {
+    font-size: 65px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.header-description {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0px 300px;
+    margin-bottom: 30px;
+}
+
+.text-primary {
+    background-color: #fc0345;
+}
+
+.btn {
+    color: white;
+    border: 0;
+    padding: 15px;
+    font-size: 19px;
+    font-weight: 600;
+    border-radius: 5px;
+}
