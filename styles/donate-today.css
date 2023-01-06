@@ -33,10 +33,10 @@
 
 .text-primary {
     background-color: #fc0345;
+    color: white;
 }
 
 .btn {
-    color: white;
     border: 0;
     padding: 15px;
     font-size: 19px;
@@ -121,9 +121,65 @@ li:hover {
 
 .info-header {
     margin-top: 25px;
+    font-size: 26px;
     margin-bottom: 30px;
 }
 
 .info-description {
     font-size: 18px;
+}
+
+/* blog section styles */
+.blog-show {
+    display: flex;
+    justify-content: space-between;
+}
+.blog-info {
+    padding: 20px 50px;
+}
+.blog-header {
+    font-size: 30px; 
+}
+
+.blog-description {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.blog-image {
+    margin: 100px 50px;
+}
+
+/* Contact Section styles */
+.contact-container {
+    text-align: center;
+}
+.response {
+    height: 200px;
+    width: 750px;
+    background-color: rgb(255, 253, 147);
+    margin: 50px 300px 200px 300px;
+}
+
+.form-response {
+    display: flex;
+    justify-content: center;
+    padding: 75px;
+}
+.email, .subscribe {
+    border: 0;
+}
+.form-response .email {
+    height: 47px;
+    background-color: rgb(165, 165, 165);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.form-response .subscribe {
+    background-color:#fc0345;
+    height: 49px;
+    color: #ffe7e7;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
